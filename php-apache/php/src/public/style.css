@@ -1,0 +1,198 @@
+/*--------------------------------------------------------*/
+/*------------------NAVIGÁCIÓS MENÜ CSS-------------------*/
+/*--------------------------------------------------------*/
+.navbar-brand
+{
+    color: rgb(174, 80, 177) !important;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: 0.3s ease all !important;
+}
+.navbar-brand:hover
+{
+    color: rgb(229, 151, 231) !important;
+    transform: scale(1.15);
+}
+.navbar
+{
+    background-color: #672d8d !important;
+}
+.nav-item
+{
+    margin-right: 20px;
+}
+.nav-item a
+{
+    color: #ebe9e9 !important;
+    font-weight: 600;
+    transition: 0.2s all ease;
+}
+.nav-item .active
+{
+    color: rgb(174, 80, 177) !important;
+}
+.nav-item a:hover
+{
+    color: #976a97 !important;
+}
+.dropdown-menu
+{
+    background-color: #672d8d !important;
+    border-radius: 10px;
+}
+.dropdown-menu a
+{
+    color: #ebe9e9 !important;
+}
+.dropdown-menu a:hover
+{
+    background-color: #503266 !important;
+}
+.nav-item a span
+{
+    color: #05c4ba;
+    transition: 0.3s ease-in-out all;
+    font-size: 12px;
+    vertical-align: text-bottom;
+}
+.nav-item a:hover span
+{
+    color: #c405bb;
+}
+/*---------------------------END--------------------------*/
+.gif
+{
+    text-align: center;
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+.gif img
+{
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*--------------------------------------------------------*/
+/*---------------------EDIT USER CSS----------------------*/
+/*--------------------------------------------------------*/
+.usersDiv
+{
+    width: 70%;
+    background-color: #50326648;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.295);
+}
+.usersDiv h2
+{
+    text-align: center;
+}
+.usersDiv table 
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    border: 2px solid #41023d;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-size: 16px !important;
+}
+.usersDiv table th
+{
+    border-bottom: 2px solid #96058c;
+}
+.usersDiv table .list
+{
+    font-size: 20px;
+}
+.usersDiv button
+{
+    margin: 2px;
+    padding: 2px;
+}
+.userStyle, .adminStyle, .ownerStyle
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.userStyle
+{
+    color: rgb(11, 87, 11);
+}
+.adminStyle
+{
+    color:rgb(179, 53, 53); 
+}
+.ownerStyle
+{
+    color: rgb(10, 92, 124);
+    
+}
+/*---------------------------END--------------------------*/
+
+/*--------------------------------------------------------*/
+/*-----------------MODIFY USER ADMIN CSS------------------*/
+/*--------------------------------------------------------*/
+
+.modifyUserDiv
+{
+    width: 80%;
+    height: 20%;
+    background-color: #50326648;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+}
+.modifyUserDiv table
+{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.modifyUserDiv table
+{
+    width: 100%;
+}
+.modifyUserDiv table:last-child
+{
+    width: 50%;
+}
+.modifyUserDiv input
+{
+    font-size: 16px !important;
+    font-weight: 600;
+    margin: 5px;width: 100%;
+}
+.custom-control-input:focus ~ .custom-control-label::before 
+{
+    border-color: #c405bb !important;
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before 
+{
+    border-color: #c405bb !important;
+    background-color: #c405bb !important;
+}
+.custom-control-input:active ~ .custom-control-label::before 
+{
+    background-color: #c405bb !important;
+    border-color: #c405bb !important;
+}
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before 
+{
+    border-color: #c405bb !important;
+}
+/*---------------------------END--------------------------*/

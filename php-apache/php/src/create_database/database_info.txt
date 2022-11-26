@@ -1,0 +1,2 @@
+Neve: afp1_big 
+Character set: utf8_hungarian_ci

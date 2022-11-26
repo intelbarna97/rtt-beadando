@@ -1,0 +1,244 @@
+/*--------------------------------------------------------*/
+/*------------------NAVIGÁCIÓS MENÜ CSS-------------------*/
+/*--------------------------------------------------------*/
+body
+{
+    background-color: rgb(156, 154, 154);
+}
+.navbar-brand
+{
+    color: rgb(109, 16, 16) !important;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: 0.3s ease all !important;
+}
+.navbar-brand:hover
+{
+    color: rgb(172, 28, 28) !important;
+    transform: scale(1.15);
+}
+.navbar
+{
+    background-color: #000000 !important;
+}
+.nav-item
+{
+    margin-right: 20px;
+}
+.nav-item a
+{
+    color: #ebe9e9 !important;
+    font-weight: 600;
+    transition: 0.2s all ease;
+}
+.nav-item .active
+{
+    color: rgb(172, 28, 28) !important;
+}
+.nav-item a:hover
+{
+    color: rgb(109, 16, 16) !important;
+}
+.dropdown-menu
+{
+    background-color: rgb(109, 16, 16) !important;
+    border-radius: 10px;
+}
+.dropdown-menu a
+{
+    color: #ebe9e9 !important;
+}
+.dropdown-menu a:hover
+{
+    background-color: rgb(148, 63, 63) !important;
+    color:#ebe9e9 !important;
+}
+.dropdown-item.active
+{
+    background-color: rgb(148, 63, 63) !important;
+    color:#ebe9e9 !important;
+}
+.nav-item a span
+{
+    color: #05c4ba;
+    transition: 0.3s ease-in-out all;
+    font-size: 12px;
+    vertical-align: text-bottom;
+}
+.nav-item a:hover span
+{
+    color: #d4d4d4;
+}
+/*---------------------------END--------------------------*/
+.gif
+{
+    text-align: center;
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+.gif img
+{
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*--------------------------------------------------------*/
+/*---------------------EDIT USER CSS----------------------*/
+/*--------------------------------------------------------*/
+.usersDiv
+{
+    width: 70%;
+    background-color: rgba(63, 33, 33, 0.288);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.295);
+}
+.usersDiv h2
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.623);
+}
+.usersDiv table 
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    border: 2px solid #070707;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-size: 16px !important;
+    color: rgba(255, 255, 255, 0.623);
+}
+.usersDiv table th
+{
+    border-bottom: 2px solid #000000;
+}
+.usersDiv table .list
+{
+    font-size: 20px;
+}
+.usersDiv button
+{
+    margin: 2px;
+    padding: 2px;
+}
+.userStyle, .adminStyle, .ownerStyle
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.userStyle
+{
+    color: rgb(11, 87, 11);
+}
+.adminStyle
+{
+    color:rgb(179, 53, 53); 
+}
+.ownerStyle
+{
+    color: rgb(10, 92, 124);
+    
+}
+/*---------------------------END--------------------------*/
+
+/*--------------------------------------------------------*/
+/*-----------------MODIFY USER ADMIN CSS------------------*/
+/*--------------------------------------------------------*/
+
+.modifyUserDiv
+{
+    color: rgba(255, 255, 255, 0.623);
+    width: 80%;
+    height: 20%;
+    background-color: #26262748;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+}
+.modifyUserDiv table
+{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.modifyUserDiv table
+{
+    width: 100%;
+}
+.modifyUserDiv table:last-child
+{
+    width: 50%;
+}
+.modifyUserDiv input
+{
+    font-size: 16px !important;
+    font-weight: 600;
+    margin: 5px;width: 100%;
+}
+
+/*---------------------------END--------------------------*/
+
+
+.simple-container
+{
+    color: whitesmoke;
+    width:300px;
+    max-width:100%;
+    margin:50px auto;
+}
+.simple-container input
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.simple-container h2, .simple-container .link
+{
+    text-align: center
+}
+.simple-container .link
+{
+    width: 50%;
+}
+.simple-container input[type="submit"]
+{
+    width: 50%;
+    background-color: #a3a3a3;
+    color: rgb(85, 81, 81);
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.2s ease all;
+}
+.simple-container input[type="submit"]:hover
+{
+    background-color: rgb(43, 41, 43);color:#fff;
+}
+a
+{
+    color:#fff;
+}
+.simple-container a
+{
+  text-decoration: none;
+  font-weight: 600;
+  color: #ececec;
+  transition: .3s ease all;
+  
+}
+.simple-container span:hover
+{
+  color: rgb(0, 0, 0);
+}
